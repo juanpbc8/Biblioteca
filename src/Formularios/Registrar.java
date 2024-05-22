@@ -10,7 +10,9 @@ import javax.swing.JPanel;
 public class Registrar extends javax.swing.JFrame {
    
     private Inicio iniciar;
-    
+    public void setiniciar(Inicio iniciar){
+        this.iniciar= iniciar;
+    }
     public Registrar() {
         initComponents();
     }
@@ -214,9 +216,7 @@ public class Registrar extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-    public void setiniciar(Inicio iniciar){
-        this.iniciar= iniciar;
-    }
+    
     private void nombreCompletoFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nombreCompletoFieldActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_nombreCompletoFieldActionPerformed
